@@ -1,0 +1,2090 @@
+{
+  "store": {
+    "name": "תבליני דור זוארץ",
+    "tagline": "תבלינים, תערובות וטעמים של פעם — היישר משוק נתניה",
+    "location": "שוק נתניה"
+  },
+  "categoryOrder": [
+    "תבלינים",
+    "ירק מיובש",
+    "מיוחדים",
+    "סוגי תערובות",
+    "מיוחדים לעוגות",
+    "משקאות",
+    "מטבלים"
+  ],
+  "products": [
+    {
+      "id": "p001-פפריקה-מתוקה-עם--בלי-שמן",
+      "name": "פפריקה מתוקה עם / בלי שמן",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 10
+        },
+        {
+          "label": "500 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p002-פפריקה-מתוקה-מעושנת",
+      "name": "פפריקה מתוקה מעושנת",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 80
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p003-פפריקה-מתוקה-גרוסה",
+      "name": "פפריקה מתוקה גרוסה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 60
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p004-פפריקה-גרוסה-חריפה-צ׳ילי",
+      "name": "פפריקה גרוסה חריפה (צ׳ילי)",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 60
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p005-פפריקה-חריפה",
+      "name": "פפריקה חריפה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 10
+        },
+        {
+          "label": "500 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p006-שאטה-טחון-אש",
+      "name": "שאטה טחון אש",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 10
+        },
+        {
+          "label": "400 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 50
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p007-כורכום",
+      "name": "כורכום",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 15
+        },
+        {
+          "label": "500 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 60
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p008-פלפל-שחור-גרוס",
+      "name": "פלפל שחור גרוס",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p009-פלפל-שחור-טחון",
+      "name": "פלפל שחור טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p010-פלפל-שחור-שלם",
+      "name": "פלפל שחור שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p011-פלפל-לבן-טחון",
+      "name": "פלפל לבן טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p012-פלפל-לבן-שלם",
+      "name": "פלפל לבן שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p013-תבלין-למפרום",
+      "name": "תבלין למפרום",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "300 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p014-ראס-אל-חנות-מרוקאי",
+      "name": "ראס אל חנות (מרוקאי)",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p015-בהרט",
+      "name": "בהרט",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p016-כמון-טחון",
+      "name": "כמון טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p017-כמון-שלם",
+      "name": "כמון שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p018-קימל-כרויה-טחון",
+      "name": "קימל  (כרויה) טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p019-קימל-שלם",
+      "name": "קימל שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p020-זעתר-בלאדי",
+      "name": "זעתר בלאדי",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p021-חוואיג-מרק",
+      "name": "חוואיג מרק",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p022-גריל-עוף",
+      "name": "גריל עוף",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p023-אגוז-מוסקט",
+      "name": "אגוז מוסקט",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p024-אגוז-מוסקט-שלם",
+      "name": "אגוז מוסקט שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p025-קצח",
+      "name": "קצח",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 60
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p026-זנגביל-טחון",
+      "name": "זנגביל טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p027-סומק-טחון",
+      "name": "סומק טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p028-תבלין-שוארמה-מתכון-זוארץ",
+      "name": "תבלין שוארמה מתכון זוארץ",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p029-תבלין-על-האש-פרגיות",
+      "name": "תבלין על האש (פרגיות)",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p030-קינמון-טחון",
+      "name": "קינמון טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p031-קינמון-שלם-ורה",
+      "name": "קינמון שלם ורה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p032-קינמון-ציילוני",
+      "name": "קינמון ציילוני",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 25
+        },
+        {
+          "label": "קילו",
+          "price": 250
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p033-אבקת-שום",
+      "name": "אבקת שום",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p034-שום-גבישי",
+      "name": "שום גבישי",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p035-קארי-הודי",
+      "name": "קארי הודי",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "400 גרם",
+          "price": 30
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p036-מלוחיה-טחון",
+      "name": "מלוחיה טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p037-פילדלפיה",
+      "name": "פילדלפיה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 80
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p038-קייג׳ון",
+      "name": "קייג׳ון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 80
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p039-טוסקנה",
+      "name": "טוסקנה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 80
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p040-כוסברה-טחון",
+      "name": "כוסברה טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 75
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p041-שומר-טחון",
+      "name": "שומר טחון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p042-שומר-שלם",
+      "name": "שומר שלם",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p043-חרדל-צהוב",
+      "name": "חרדל צהוב",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p044-חרדל-שחור",
+      "name": "חרדל שחור",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "250 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p045-חומוס-גונדי-לקציצות",
+      "name": "חומוס גונדי לקציצות",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p046-סודה-לשתיה",
+      "name": "סודה לשתיה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "קילו",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p047-מרק-עוף-פרווה",
+      "name": "מרק עוף פרווה",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "קילו",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p048-פלפלים-שלמים-מתוקים-תפזורת",
+      "name": "פלפלים שלמים מתוקים (תפזורת)",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [],
+      "priceNote": "מחיר לפי שקילה",
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p049-פלפלים-שלמים-חריפים-תפזורת",
+      "name": "פלפלים שלמים חריפים (תפזורת)",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [],
+      "priceNote": "מחיר לפי שקילה",
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p050-כוכב-אניס",
+      "name": "כוכב אניס",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p051-מלח-לימון",
+      "name": "מלח לימון",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "600 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p052-תבלין-לצ׳יפס",
+      "name": "תבלין לצ׳יפס",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p055-שמיר",
+      "name": "שמיר",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p056-פטרוזיליה",
+      "name": "פטרוזיליה",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p057-כוסברה",
+      "name": "כוסברה",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p058-טימין",
+      "name": "טימין",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p059-נענע-יבשה",
+      "name": "נענע יבשה",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p060-מנטה-יבשה",
+      "name": "מנטה יבשה",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p061-אורגנו",
+      "name": "אורגנו",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p062-רוזמרין",
+      "name": "רוזמרין",
+      "category": "ירק מיובש",
+      "description": "",
+      "variants": [
+        {
+          "label": "150 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p065-ניצני-ורדים-טחון",
+      "name": "ניצני ורדים טחון",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p066-הל-טחון",
+      "name": "הל טחון",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p067-הל-שלם",
+      "name": "הל שלם",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p068-פלפלת-אדומה",
+      "name": "פלפלת אדומה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p069-ציפורן-טחון",
+      "name": "ציפורן טחון",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p070-ציפורן-שלם",
+      "name": "ציפורן שלם",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p071-חבעזיז",
+      "name": "חבעזיז",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p072-תבלין-בייגלה",
+      "name": "תבלין בייגלה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p073-אניס-לעוגות",
+      "name": "אניס לעוגות",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p074-משייב-טחון",
+      "name": "משייב טחון",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p075-משייה-שלם",
+      "name": "משייה שלם",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p076-עלי-דפנה",
+      "name": "עלי דפנה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "50 גרם",
+          "price": 10
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p077-לואיזה",
+      "name": "לואיזה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "50 גרם",
+          "price": 10
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p080-חינה-אדומה",
+      "name": "חינה אדומה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p081-בסיסה",
+      "name": "בסיסה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "400 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p085-בשמים-לברית",
+      "name": "בשמים לברית",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p078-זעפרן",
+      "name": "זעפרן",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p079-מסטיקה",
+      "name": "מסטיקה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 24
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p082-פקיילה",
+      "name": "פקיילה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p083-שמן-זית",
+      "name": "שמן זית",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p084-שמעק-בשמים-להבדלה",
+      "name": "שמעק בשמים להבדלה",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p086-טבקים-כל-הסוגים",
+      "name": "טבקים כל הסוגים",
+      "category": "מיוחדים",
+      "description": "",
+      "variants": [],
+      "priceNote": "2 ב־₪50",
+      "isWeightedProduct": false,
+      "isUnitProduct": false,
+      "isPromotion": true,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p089-תערובת-לאורז-בחש",
+      "name": "תערובת לאורז בחש",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p090-אורז-מג׳דרה-צהוב",
+      "name": "אורז מג׳דרה צהוב",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p091-שקדים-צימוקים-חמוציות",
+      "name": "שקדים צימוקים חמוציות",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p092-אושפלוב",
+      "name": "אושפלוב",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p093-מרקש",
+      "name": "מרקש",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p094-בצל-מטוגן",
+      "name": "בצל מטוגן",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p095-שום-פרוס",
+      "name": "שום פרוס",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p096-פלפל-צ׳ומה-מתכון-זוארץ",
+      "name": "פלפל צ׳ומה מתכון זוארץ",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p097-תערובת-לתה-טריפוליטאי",
+      "name": "תערובת לתה טריפוליטאי",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p098-חליטות-לתה",
+      "name": "חליטות לתה",
+      "category": "סוגי תערובות",
+      "description": "",
+      "variants": [
+        {
+          "label": "קילו",
+          "price": 100
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p100-פרג-שלם",
+      "name": "פרג שלם",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p101-שומשום-שחור",
+      "name": "שומשום שחור",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "300 גרם",
+          "price": 20
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p102-שומשום-לבן",
+      "name": "שומשום לבן",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p103-שומשום-חום",
+      "name": "שומשום חום",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p104-פשתן",
+      "name": "פשתן",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 15
+        },
+        {
+          "label": "קילו",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p105-צ׳יה",
+      "name": "צ׳יה",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p106-קוקוס-טחון",
+      "name": "קוקוס טחון",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "500 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p107-מחית-וניל",
+      "name": "מחית וניל",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "100 גרם",
+          "price": 30
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p108-מי-זהר",
+      "name": "מי זהר",
+      "category": "מיוחדים לעוגות",
+      "description": "",
+      "variants": [
+        {
+          "label": "30 מ״ל",
+          "price": 15
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p111-ספונג׳ה-בטעמים",
+      "name": "ספונג׳ה בטעמים",
+      "category": "משקאות",
+      "description": "ענבים / משמש / מנטה",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p113-רוזטה",
+      "name": "רוזטה",
+      "category": "משקאות",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p114-תמר-הינדי",
+      "name": "תמר הינדי",
+      "category": "משקאות",
+      "description": "",
+      "variants": [
+        {
+          "label": "יחידה",
+          "price": 25
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p117-אריסה-פיקנטית",
+      "name": "אריסה פיקנטית",
+      "category": "מטבלים",
+      "description": "מטבלים מתכון בית",
+      "variants": [
+        {
+          "label": "קופסה 250 גרם",
+          "price": 12
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p118-לימון-ביתי",
+      "name": "לימון ביתי",
+      "category": "מטבלים",
+      "description": "מטבלים מתכון בית",
+      "variants": [
+        {
+          "label": "קופסה 250 גרם",
+          "price": 12
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p119-פלפל-צ׳ומה",
+      "name": "פלפל צ׳ומה",
+      "category": "מטבלים",
+      "description": "מטבלים מתכון בית",
+      "variants": [
+        {
+          "label": "קופסה 250 גרם",
+          "price": 12
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": false,
+      "isUnitProduct": true,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    }
+  ]
+}

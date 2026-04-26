@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#b71d18" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="description" content="מחירון תבליני דור זוארץ — תבלינים, תערובות, מטבלים ומשקאות משוק נתניה." />
+  <title>מחירון תבליני דור זוארץ — שוק נתניה</title>
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Suez+One&family=Rubik:wght@400;500;600;700;800;900&family=Heebo:wght@400;500;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip to content (a11y) -->
+  <a class="skip-link" href="#catalog">דילוג לתוכן הראשי</a>
+
+  <!-- ===== Header — גדול ובולט ===== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <img class="logo" src="assets/logo.png" alt="לוגו תבליני דור זוארץ"
+           onerror="this.style.display='none'" />
+      <div class="header-text">
+        <p class="kicker">שוק נתניה · מסורת משפחתית</p>
+        <h1 class="store-name">תבליני דור זוארץ</h1>
+      </div>
+      <img class="badatz" src="assets/badatz.png" alt="בד״ץ בית יוסף"
+           onerror="this.style.display='none'" />
+    </div>
+
+    <!-- Highlight badge: call-to-action -->
+    <p class="cta-banner">מלאו סל לביצוע הזמנה אונליין</p>
+
+    <!-- Store info compact -->
+    <div class="store-info" aria-label="פרטי החנות">
+      <span class="info-line">📍 היהלום 5, שוק נתניה</span>
+      <span class="info-line">📱 להזמנות ומשלוחים בווצאפ בלבד: <strong>053-6000549</strong></span>
+      <a class="wa-link wa-link--small"
+         href="https://wa.me/972536000549"
+         target="_blank"
+         rel="noopener"
+         aria-label="פתיחת שיחת WhatsApp לחנות">
+        💬 שלחו הודעה בווצאפ
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== Sticky nav (search + categories) ===== -->
+  <nav class="sticky-nav" aria-label="חיפוש וקטגוריות">
+    <form class="search" role="search" onsubmit="return false;">
+      <label for="search-input" class="visually-hidden">חיפוש מוצר</label>
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input
+        id="search-input"
+        type="search"
+        autocomplete="off"
+        aria-label="חיפוש מוצר בכל הקטגוריות"
+        placeholder="חיפוש מוצר... (למשל: פפריקה, כמון, זעפרן)"
+      />
+    </form>
+
+    <div class="cat-nav" aria-label="ניווט קטגוריות">
+      <ul id="cat-nav-list" role="tablist"></ul>
+    </div>
+  </nav>
+
+  <!-- ===== Catalog ===== -->
+  <main class="catalog" id="catalog" aria-live="polite">
+    <!-- Categories rendered by script.js -->
+  </main>
+
+  <p id="no-results" class="no-results" hidden>
+    לא נמצאו מוצרים שתואמים את החיפוש. נסו שם אחר או נקו את החיפוש.
+  </p>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-store">תבליני דור זוארץ · שוק נתניה</p>
+      <p class="footer-contact">
+        כתובת החנות: <strong>היהלום 5, שוק נתניה</strong><br/>
+        להזמנות ומשלוחים בווצאפ בלבד: <strong>053-6000549</strong>
+      </p>
+      <p class="footer-note">
+        המחירים נכונים למועד פרסום המחירון ועשויים להשתנות.
+        מוזמנים לבוא לדוכן או להתקשר.
+      </p>
+      <p class="footer-tiny">
+        © תבליני דור זוארץ. עיצוב המחירון בהשראת הפלייר של החנות.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== Cart FAB ===== -->
+  <button type="button"
+          class="cart-fab"
+          data-cart-fab
+          aria-label="פתיחת סל הקניות"
+          aria-controls="cart-drawer">
+    <span class="cart-fab-icon" aria-hidden="true">🛒</span>
+    <span class="cart-fab-count" data-cart-count data-empty="1">0</span>
+  </button>
+
+  <!-- ===== Cart drawer / bottom-sheet ===== -->
+  <div class="cart-backdrop" data-cart-backdrop hidden></div>
+
+  <aside id="cart-drawer"
+         class="cart-drawer"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="cart-title"
+         aria-hidden="true"
+         data-empty="1"
+         hidden>
+
+    <header class="cart-header">
+      <h2 id="cart-title" class="cart-title">סיום הזמנה</h2>
+      <button type="button"
+              class="cart-close"
+              data-cart-close
+              aria-label="סגירת סל">×</button>
+    </header>
+
+    <!-- Two-column on desktop, single on mobile -->
+    <div class="cart-content" data-cart-content>
+
+      <!-- ===== Section 1: items ===== -->
+      <section class="cart-section cart-section--items" aria-labelledby="cart-sec1">
+        <h3 class="cart-section-title" id="cart-sec1">1. הסל שלך</h3>
+        <div class="cart-items" data-cart-body>
+          <!-- items rendered here by script.js -->
+        </div>
+      </section>
+
+      <!-- ===== Section 2: receive method ===== -->
+      <section class="cart-section cart-section--method"
+               data-when-empty="hidden"
+               aria-labelledby="cart-sec2">
+        <h3 class="cart-section-title" id="cart-sec2">2. קבלת ההזמנה</h3>
+        <fieldset class="checkout-method">
+          <legend class="visually-hidden">איך תרצו לקבל את ההזמנה?</legend>
+          <label class="method-option" data-method>
+            <input type="radio" name="checkout-method" value="pickup" />
+            <span class="method-title">איסוף עצמי</span>
+            <span class="method-sub">היהלום 5, שוק נתניה</span>
+          </label>
+          <label class="method-option" data-method>
+            <input type="radio" name="checkout-method" value="delivery" />
+            <span class="method-title">משלוח</span>
+            <span class="method-sub">מינימום הזמנה ₪150</span>
+          </label>
+        </fieldset>
+      </section>
+
+      <!-- ===== Section 3: details ===== -->
+      <section class="cart-section cart-section--details"
+               id="cart-details"
+               data-when-empty="hidden"
+               aria-labelledby="cart-sec3">
+        <h3 class="cart-section-title" id="cart-sec3">3. פרטים לסיום</h3>
+
+        <p class="empty-method-hint" data-empty-method-hint>
+          בחרו אופן קבלה — איסוף עצמי או משלוח — כדי להמשיך.
+        </p>
+
+        <!-- Pickup fields -->
+        <div class="checkout-fields"
+             data-method-fields="pickup"
+             hidden>
+          <p class="checkout-help">
+            איסוף עצמי מהכתובת: <strong>היהלום 5, שוק נתניה</strong>.
+            ניצור איתכם קשר לאישור ההזמנה ומועד האיסוף.
+          </p>
+          <div class="field-row">
+            <label class="field">
+              <span class="field-label">שם מלא <em>*</em></span>
+              <input class="field-input" type="text"
+                     data-field="name"
+                     autocomplete="name"
+                     placeholder="ישראל ישראלי" />
+              <span class="field-error" data-error-for="name" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field-label">טלפון נייד <em>*</em></span>
+              <input class="field-input" type="tel"
+                     data-field="phone"
+                     autocomplete="tel"
+                     inputmode="tel"
+                     placeholder="050-0000000" />
+              <span class="field-error" data-error-for="phone" hidden></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Delivery fields -->
+        <div class="checkout-fields"
+             data-method-fields="delivery"
+             hidden>
+          <p class="checkout-help" data-delivery-help hidden>
+            מצוין! ניצור איתכם קשר לאישור ההזמנה ולתיאום המשלוח.
+          </p>
+          <p class="min-warning" data-min-warning hidden></p>
+
+          <div class="field-row">
+            <label class="field">
+              <span class="field-label">שם מלא <em>*</em></span>
+              <input class="field-input" type="text"
+                     data-field="name"
+                     autocomplete="name"
+                     placeholder="ישראל ישראלי" />
+              <span class="field-error" data-error-for="name" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field-label">טלפון נייד <em>*</em></span>
+              <input class="field-input" type="tel"
+                     data-field="phone"
+                     autocomplete="tel"
+                     inputmode="tel"
+                     placeholder="050-0000000" />
+              <span class="field-error" data-error-for="phone" hidden></span>
+            </label>
+          </div>
+          <div class="field-row field-row--3">
+            <label class="field">
+              <span class="field-label">עיר <em>*</em></span>
+              <input class="field-input" type="text"
+                     data-field="city"
+                     autocomplete="address-level2"
+                     placeholder="נתניה" />
+              <span class="field-error" data-error-for="city" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field-label">רחוב <em>*</em></span>
+              <input class="field-input" type="text"
+                     data-field="street"
+                     autocomplete="address-line1"
+                     placeholder="הרצל" />
+              <span class="field-error" data-error-for="street" hidden></span>
+            </label>
+            <label class="field">
+              <span class="field-label">מספר בית <em>*</em></span>
+              <input class="field-input" type="text"
+                     data-field="house"
+                     inputmode="numeric"
+                     placeholder="12" />
+              <span class="field-error" data-error-for="house" hidden></span>
+            </label>
+          </div>
+          <label class="field">
+            <span class="field-label">הערות לשליח</span>
+            <textarea class="field-input"
+                      data-field="notes"
+                      rows="2"
+                      placeholder="קומה, דלת, קוד דלת וכו׳"></textarea>
+          </label>
+
+          <fieldset class="payment-method">
+            <legend class="checkout-legend">איך תרצו לשלם? <em>*</em></legend>
+            <label class="payment-option" data-payment>
+              <input type="radio" name="payment-method" value="credit-phone"
+                     data-field="payment" />
+              <span class="payment-title">אשראי – טלפוני</span>
+              <span class="payment-sub">ניצור איתכם קשר לגביית התשלום בטלפון</span>
+            </label>
+            <label class="payment-option" data-payment>
+              <input type="radio" name="payment-method" value="cash-courier"
+                     data-field="payment" />
+              <span class="payment-title">מזומן לשליח</span>
+              <span class="payment-sub">תשלום במזומן בעת קבלת המשלוח</span>
+            </label>
+            <span class="field-error" data-error-for="payment" hidden></span>
+          </fieldset>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Sticky summary footer ===== -->
+    <footer class="cart-summary" data-when-empty="hidden">
+      <div class="cart-totals">
+        <span class="cart-totals-label">
+          סה״כ <span data-cart-total-count>0 פריטים</span>
+        </span>
+        <span class="cart-totals-value" data-cart-total>₪0</span>
+      </div>
+
+      <p class="form-error" data-form-error hidden></p>
+
+      <p class="cart-helper-text">
+        לאחר הלחיצה תיפתח הודעת WhatsApp מוכנה. יש ללחוץ שליחה כדי להשלים את ההזמנה.
+      </p>
+
+      <div class="cart-actions">
+        <button type="button"
+                class="cart-btn-wa"
+                data-cart-submit
+                disabled>
+          <span aria-hidden="true">💬</span>
+          <span data-submit-text>שליחת הזמנה בווצאפ</span>
+        </button>
+        <button type="button"
+                class="cart-btn-clear"
+                data-cart-clear
+                disabled>
+          ניקוי סל
+        </button>
+      </div>
+    </footer>
+  </aside>
+
+  <!-- Optional inline data fallback for file:// open -->
+  <script src="data-inline.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
