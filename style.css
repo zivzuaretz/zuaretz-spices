@@ -27,8 +27,8 @@
   --radius-lg:  20px;
   --maxw:       1180px;
 
-  --font-display: "Suez One", "Rubik", "Heebo", "Arial Hebrew", sans-serif;
-  --font-body:    "Suez One", "Rubik", "Heebo", "Arial Hebrew", sans-serif;
+  --font-display: "Heebo", "Suez One", "Rubik", "Arial Hebrew", sans-serif;
+  --font-body:    "Heebo", "Suez One", "Rubik", "Arial Hebrew", sans-serif;
 
   --tap:        44px;
   --safe-bot:   env(safe-area-inset-bottom, 0px);
@@ -141,7 +141,7 @@ a { color: inherit; }
 .store-name {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 900;
   font-size: clamp(34px, 5.4vw, 50px);
   color: var(--red-deep);
   letter-spacing: -0.01em;
