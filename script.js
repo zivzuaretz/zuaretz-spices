@@ -10,7 +10,7 @@ const STORE = {
   minDelivery: 150,                // ₪ מינימום למשלוח
 };
 
-const DATA_URL = "data/products.json";
+const DATA_URL = "products.json";
 const CART_KEY = "dor-zoaretz-cart-v1";
 
 const STATE = {

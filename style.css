@@ -59,7 +59,7 @@ body {
       rgba(251, 243, 223, 0.78) 35%,
       rgba(244, 207, 106, 0.20) 100%),
     linear-gradient(rgba(251, 243, 223, 0.78), rgba(244, 231, 197, 0.86)),
-    url("assets/background.jpg");
+    url("background.jpg");
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
