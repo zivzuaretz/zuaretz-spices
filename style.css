@@ -156,8 +156,18 @@ a { color: inherit; }
 }
 
 /* CTA banner under header */
-.cta-banner {
+.cta-row {
   max-width: var(--maxw);
+  margin: 12px auto 8px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.cta-row .cta-banner { margin: 0; }
+.cta-banner {
   margin: 12px auto 8px;
   padding: 11px 22px;
   background: linear-gradient(180deg, var(--yellow) 0%, var(--yellow-soft) 100%);
@@ -480,7 +490,7 @@ a { color: inherit; }
   color: var(--ink-mute);
 }
 .price-value {
-  font-family: var(--font-body);
+  font-family: "Arial", "Helvetica", sans-serif;
   font-weight: 900;
   font-size: 24px;
   color: var(--red-deep);
@@ -958,7 +968,7 @@ a { color: inherit; }
 }
 .cart-totals-label { font-size: 14px; color: var(--ink-soft); font-weight: 600; }
 .cart-totals-value {
-  font-family: var(--font-body);
+  font-family: "Arial", "Helvetica", sans-serif;
   font-weight: 900;
   font-size: 26px;
   color: var(--red-deep);
