@@ -15,8 +15,33 @@
   ],
   "products": [
     {
-      "id": "p001-פפריקה-מתוקה-עם--בלי-שמן",
-      "name": "פפריקה מתוקה עם / בלי שמן",
+      "id": "p001a-פפריקה-מתוקה-עם-שמן",
+      "name": "פפריקה מתוקה עם שמן",
+      "category": "תבלינים",
+      "description": "",
+      "variants": [
+        {
+          "label": "200 גרם",
+          "price": 10
+        },
+        {
+          "label": "500 גרם",
+          "price": 20
+        },
+        {
+          "label": "קילו",
+          "price": 40
+        }
+      ],
+      "priceNote": null,
+      "isWeightedProduct": true,
+      "isUnitProduct": false,
+      "isPromotion": false,
+      "imagePlaceholder": true
+    },
+    {
+      "id": "p001b-פפריקה-מתוקה-בלי-שמן",
+      "name": "פפריקה מתוקה בלי שמן",
       "category": "תבלינים",
       "description": "",
       "variants": [
