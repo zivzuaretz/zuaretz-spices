@@ -379,7 +379,7 @@ a { color: inherit; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 12px;
-  align-items: start;        /* don't stretch cards to row max */
+  align-items: stretch;
 }
 
 /* ============================================================
@@ -396,7 +396,6 @@ a { color: inherit; }
   gap: 8px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
-  align-self: start;         /* take only natural height */
 }
 .product-card:hover {
   transform: translateY(-2px);
@@ -476,7 +475,7 @@ a { color: inherit; }
 
 /* Price row */
 .price-row {
-  margin-top: 4px;
+  margin-top: auto;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
