@@ -28,7 +28,7 @@
   --maxw:       1180px;
 
   --font-display: "Suez One", "Rubik", "Heebo", "Arial Hebrew", sans-serif;
-  --font-body:    "Rubik", "Heebo", "Assistant", "Arial Hebrew", sans-serif;
+  --font-body:    "Suez One", "Rubik", "Heebo", "Arial Hebrew", sans-serif;
 
   --tap:        44px;
   --safe-bot:   env(safe-area-inset-bottom, 0px);
@@ -395,7 +395,7 @@ a { color: inherit; }
 
 .product-name {
   margin: 0;
-  font-family: "Rubik", var(--font-body);
+  font-family: var(--font-body);
   font-weight: 800;
   font-size: 17px;
   color: var(--ink);
@@ -480,7 +480,7 @@ a { color: inherit; }
   color: var(--ink-mute);
 }
 .price-value {
-  font-family: "Rubik", var(--font-body);
+  font-family: var(--font-body);
   font-weight: 900;
   font-size: 24px;
   color: var(--red-deep);
@@ -902,7 +902,7 @@ a { color: inherit; }
 
 .cart-item-subtotal {
   grid-area: sub;
-  font-family: "Rubik", var(--font-body);
+  font-family: var(--font-body);
   font-weight: 900;
   font-size: 18px;
   color: var(--red-deep);
@@ -958,7 +958,7 @@ a { color: inherit; }
 }
 .cart-totals-label { font-size: 14px; color: var(--ink-soft); font-weight: 600; }
 .cart-totals-value {
-  font-family: "Rubik", var(--font-body);
+  font-family: var(--font-body);
   font-weight: 900;
   font-size: 26px;
   color: var(--red-deep);
