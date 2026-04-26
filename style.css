@@ -169,14 +169,14 @@ a { color: inherit; }
 .cta-row .cta-banner { margin: 0; }
 .cta-banner {
   margin: 12px auto 8px;
-  padding: 11px 22px;
+  padding: 6px 12px;
   background: linear-gradient(180deg, var(--yellow) 0%, var(--yellow-soft) 100%);
-  border: 2.5px solid var(--card-border);
+  border: 2px solid var(--card-border);
   border-radius: 999px;
   text-align: center;
-  font-family: var(--font-display);
-  font-weight: 400;
-  font-size: clamp(17px, 2.4vw, 22px);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 13.5px;
   color: var(--red-deep);
   letter-spacing: -0.005em;
   box-shadow: var(--shadow-sm);
@@ -634,8 +634,8 @@ a { color: inherit; }
   height: 60px;
   border-radius: 999px;
   border: 3px solid var(--card-border);
-  background: var(--red);
-  color: #fff;
+  background: var(--yellow-soft);
+  color: var(--ink);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -644,7 +644,7 @@ a { color: inherit; }
   transition: transform 0.12s ease, background 0.18s ease;
   font-family: inherit;
 }
-.cart-fab:hover { background: var(--red-deep); transform: translateY(-2px); }
+.cart-fab:hover { background: var(--yellow); transform: translateY(-2px); }
 .cart-fab:active { transform: translateY(0); }
 .cart-fab-icon {
   font-size: 26px;
@@ -1317,8 +1317,8 @@ html[dir="rtl"] .toast.is-visible { transform: translateX(-50%) translateY(0); }
 
   .cta-banner {
     margin: 10px auto 8px;
-    padding: 9px 18px;
-    font-size: 16px;
+    padding: 5px 10px;
+    font-size: 12.5px;
     border-width: 2px;
   }
   .store-info {
